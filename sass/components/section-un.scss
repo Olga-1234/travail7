@@ -12,6 +12,8 @@ html {
 header {
   @include width-height-img(100%,none);
   @include position(fixed);
+  z-index: 99999;
+
 }
 
 .section {
