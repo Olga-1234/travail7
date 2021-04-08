@@ -1,0 +1,44 @@
+.section-trois
+{
+  @include width-height-img(100vw,auto);
+  .section-trois__div-global
+  {
+    display: flex;
+    flex-direction: column ;
+    justify-content:space-around;
+     @include width-height-img(100%,auto);
+
+  
+      .div-global__div1
+      {
+      @include width-height-img(100%,auto);
+         display: flex;
+          flex-direction: row;
+        justify-content: space-around;
+        padding: 4vh 0;
+        .div1__titre
+        {
+        
+      @include width-height-img(30%,100%);
+        }
+        .div1__img
+      {
+      @include width-height-img(100%,100%);
+      border-radius: 10px;
+      }
+    
+
+       
+        .div1__text
+        {
+      @include width-height-img(50%,100%);
+      border-radius: 10px;
+      padding-left: 1rem;
+      padding-bottom: 2rem;
+      color: #584f43;
+      @include applytypographie(#f6f5f0e5,bold,none);
+        }
+    }
+}
+}
+      

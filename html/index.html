@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="yellow darken-3">
+        <div class="nav-wrapper nav-background">
+          <a href="#!" class="nav-background__logo">Omn</a>
+
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#section-un">Accueil</a></li>
+            <li><a href="#section-deux">A propos</a></li>
+            <li><a href="#section-trois">Projets</a></li>
+            <li><a href="#section-quatre">Contacts</a></li>
+          </ul>
+
+          <a href="#section" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">Accueil</i></a
+          >
+          <a
+            href="#section-deux"
+            data-target="mobile-demo"
+            class="sidenav-trigger"
+          >
+            <i class="material-icons">A propos</i></a
+          >
+          <a
+            href="#section-trois"
+            data-target="mobile-demo"
+            class="sidenav-trigger"
+          >
+            <i class="material-icons">Projets</i>
+          </a>
+          <a
+            href="#section-quatre"
+            data-target="mobile-demo"
+            class="sidenav-trigger"
+          >
+            <i class="material-icons">Contacts</i></a
+          >
+        </div>
+      </nav>
+    </header>
+    <section id="section-un" class="section">
+      <h1 id="section-un-bienvenu" class="section__bienvenu">
+        Bienvenue!
+        <br />
+        Je suis Olga Mujinga
+      </h1>
+    </section>
+
+    <section id="section-deux" class="section-deux">
+      <div class="section-deux__div1">
+        <h2>A propos</h2>
+        <p class="section-deux__para">
+          J'habite Kinshasa en République Démocratique du Congo. <br />
+          Je suis économiste de formation et apprenante à
+          <a class="para--link" href="https://www.kinshasadigital.com/academy">
+            Kinshasa Digital Academy</a
+          >
+          dans le développement web et web mobile. <br />
+          j'ai fait des nombreux stages dans les regies financières c'est ainsi
+          que je suis à l'aise avec tout ce qui a trait avec les finances
+          publiques à cela j'ai une expérience en sécretariat.
+        </p>
+        <p>
+          <img
+            class="section-deux__img"
+            src="/img/photolga.jpeg"
+            alt="photo d'olga"
+          />
+        </p>
+        <h3>Compétences</h3>
+        <p class="section-deux__illustration">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-sass"></i>
+        </p>
+      </div>
+    </section>
+    <section id="section-trois" class="section-trois">
+      <h2 class="section-trois__titre">Projets</h2>
+      <div id="liste-projet" class="section-trois__div-global"></div>
+    </section>
+    <footer id="section-quatre" class="contact">
+      <h3>Contacts</h3>
+      <div class="section-quatre__illustration">
+        <a href="https://github.com/Olga-1234 " target="blank"
+          ><i class="fab fa-contact fa-github"></i
+        ></a>
+        <a href="mailto:monaolgita@gmail.com" target="blank"
+          ><i class="fas fa-contact fa-envelope"></i
+        ></a>
+        <a href=""><i class="fab fa-contact fa-linkedin-in"></i> </a>
+      </div>
+    </footer>
+    <script src="/js/animation.js"></script>
+    <script src="/js/ajax_projets.js"></script>
+  </body>
+</html>

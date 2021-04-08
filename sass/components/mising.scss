@@ -1,0 +1,30 @@
+@mixin applytypographie($background-color,$font-weight,$background-image) {
+    
+    background-color:$background-color !important;
+    font-weight:$font-weight !important;
+    background-image: $background-image !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin width-height-img($width,$height)
+{
+   width:$width !important;
+   height: $height !important;
+}
+@mixin position($position) {
+    position:$position;
+}
+@mixin flex($display,$align-items) 
+{
+display:$display !important;
+align-items: $align-items !important; 
+}
+
+@mixin coulor-font($color,$font-size,$font-weight, $font-family){
+    color: $color !important;
+    font-size: $font-size !important;
+    font-weight: $font-weight;
+    font-family: $font-family;
+}
+
+
