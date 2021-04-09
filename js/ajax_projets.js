@@ -1,6 +1,6 @@
 let listeProjet = document.querySelector("#liste-projet");
 
-fetch("http://localhost:3000/projets")
+fetch("https://my-json-server.typicode.com/Olga-1234/travail7/projets")
 .then(function(reponse) {
     return reponse.json();
 })
