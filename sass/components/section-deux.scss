@@ -30,11 +30,37 @@
     padding-bottom: 3%;
   }
 }
-// .img
-// {
-//   @include width-height-img(10%,auto);
-// }
 
+@media (max-width:700px)
+{
+  
+  .section-deux__img {
+      @include position(absolute);
+      border-radius: 40px;
+      @include width-height-img(30%, auto);
+      margin-left: 65%;
+      margin-top: -60%;
+  }
+}
+@media (max-width:700px)
+{
+  .section-deux__div1 {
+    background-color: #f6f5f0e5;
+    @include width-height-img(80%, auto);
+    border-radius: 20px;
+  }
+ }
+@media (max-width:700px)
+ {
+  .section-deux__para {
+    @include width-height-img(80%, auto);
+    @include coulor-font(#584f43, none, none, "Open Sans");
+    font-size: 1rem !important;
+    text-align: justify;
+    margin: 10% 0 0 10%;
+  }
+ }
+ 
 .fab {
   font-size: 3rem;
 }

@@ -36,14 +36,23 @@ header {
     font-family: "Lobster";
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .nav-background__logo {
     color: transparent;
+  }
+
+}
+@media (max-width:700px)
+{
+  .section{
+  @include applytypographie(none, none, url("../img/bckpx.png"));
+  @include width-height-img(100vw, 80vh);
+
   }
 }
 
 .material-icons {
-  font-size: 0.9rem !important;
+  font-size: 0.8rem !important;
 }
 
 .slidein {
