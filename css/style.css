@@ -22,7 +22,7 @@ header {
   height: 80vh !important;
   background-color: none !important;
   font-weight: none !important;
-  background-image: url("/img/arriere.png") !important;
+  background-image: url("../img/arriere.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
   color: white !important;

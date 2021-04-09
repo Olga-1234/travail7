@@ -18,7 +18,7 @@ header {
 
 .section {
   @include width-height-img(100vw, 80vh);
-  @include applytypographie(none, none, url("/img/arriere.png"));
+  @include applytypographie(none, none, url("../img/arriere.png"));
   @include coulor-font(white, none, bold, "Open Sans");
   display: flex;
   align-items: center;
