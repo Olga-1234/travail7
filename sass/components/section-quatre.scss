@@ -1,7 +1,7 @@
 
 .contact
 {
-  background-color:#f6f5f0e5;
+  background-color:rgb(22, 22, 22);
   padding-top: 2%;
 }
 .section-quatre__illustration
@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 1% !important;
   & a
 {
 font-size:2rem;
@@ -17,5 +17,16 @@ font-size:2rem;
 }
 .fa-contact
 {
-  color:#423726 ;
+  color:rgb(175, 175, 175);
+}
+.copy-right{
+  color: rgb(175, 175, 175) ;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5%;
+}
+.contacts-titre
+{
+  color:rgb(175, 175, 175) !important;
 }

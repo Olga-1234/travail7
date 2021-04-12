@@ -220,7 +220,7 @@ header {
 }
 
 .contact {
-  background-color: #f6f5f0e5;
+  background-color: #161616;
   padding-top: 2%;
 }
 
@@ -228,14 +228,26 @@ header {
   display: flex;
   justify-content: space-evenly;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 1% !important;
 }
 .section-quatre__illustration a {
   font-size: 2rem;
 }
 
 .fa-contact {
-  color: #423726;
+  color: #afafaf;
+}
+
+.copy-right {
+  color: #afafaf;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5%;
+}
+
+.contacts-titre {
+  color: #afafaf !important;
 }
 
 .materialize-red {
