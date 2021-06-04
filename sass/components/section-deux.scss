@@ -1,28 +1,23 @@
 .section-deux {
-  padding: 5% 0% 0 10%;
+  // padding: 5% 0% 0 5%;
   &__div1 {
     background-color: #f6f5f0e5;
-    @include width-height-img(70%, auto);
+    @include width-height-img(100%, auto);
     border-radius: 20px;
   }
   &__para {
-    @include width-height-img(65%, auto);
+    @include width-height-img(100%, auto);
     @include coulor-font(#584f43, none, none, "Open Sans");
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
     text-align: justify;
-    margin: 5% 0 0 10%;
+    // margin: 10% 0 0 10%;
+    padding-bottom: 2%;
 
     &--link {
       color: #44351f;
     }
   }
-  &__img {
-    @include position(absolute);
-    border-radius: 90px;
-    @include width-height-img(20%, auto);
-    margin-left: 55%;
-    margin-top: -15%;
-  }
+
   &__illustration {
     display: flex;
     justify-content: space-evenly;
@@ -31,17 +26,6 @@
   }
 }
 
-@media (max-width:700px)
-{
-  
-  .section-deux__img {
-      @include position(absolute);
-      border-radius: 40px;
-      @include width-height-img(30%, auto);
-      margin-left: 65%;
-      margin-top: -60%;
-  }
-}
 @media (max-width:700px)
 {
   .section-deux__div1 {
@@ -66,15 +50,16 @@
 }
 
 .fa-html5 {
-  color: red;
+  color: #161616;
 }
 .fa-css3 {
-  color: blue;
+  color: #161616;
 }
 
 .fa-js {
-  color: yellow;
+  color: #161616;
 }
 .fa-sass {
-  color: #d0359b;
+  color: #161616;
 }
+
